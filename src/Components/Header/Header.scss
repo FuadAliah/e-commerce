@@ -1,0 +1,35 @@
+.navbar {
+  svg {
+    font-size: 24px;
+  }
+
+  .cart-num {
+    &:hover {
+      text-decoration: none;
+    }
+
+    span {
+      font-weight: 600;
+      width: 25px;
+      text-align: end;
+    }
+  }
+}
+svg {
+  font-size: 18px;
+}
+
+.notification {
+  width: 18px;
+  height: 18px;
+  color: #fff;
+  text-align: center;
+  line-height: 18px;
+  font-size: 12px;
+  border-radius: 50%;
+  margin-left: 3px;
+  font-weight: 800;
+}
+.user {
+  width: 100px;
+}

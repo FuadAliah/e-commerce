@@ -1,0 +1,33 @@
+.mt {
+  margin-top: 60px;
+}
+
+.cart-contain {
+  .left {
+    width: auto;
+
+    .cart-img {
+      width: 120px;
+      height: 120px;
+    }
+
+    .info {
+      width: 220px;
+    }
+  }
+
+  .price {
+    font-size: 18px;
+    width: 220px;
+    text-align: center;
+  }
+
+  .butt {
+    height: 44px;
+  }
+
+  .cart-qty {
+    width: 60px;
+    text-align: center;
+  }
+}
