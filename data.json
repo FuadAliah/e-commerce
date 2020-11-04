@@ -1,0 +1,39 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Ottoman bed",
+      "location": "Amman",
+      "price": "219",
+      "img": "./imgs/bedOne.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Bed slatted bed base",
+      "location": "Aqaba",
+      "price": "199",
+      "img": "./imgs/bedTwo.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Bed frame storage headboard",
+      "location": "Ajloun",
+      "price": "129",
+      "img": "./imgs/bedThree.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Bed frame slatted bed base",
+      "location": "Zarqa",
+      "price": "109",
+      "img": "./imgs/bedFour.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Bed frame 4 storage boxes",
+      "location": "Zarqa",
+      "price": "99",
+      "img": "./imgs/bedFive.jpg"
+    }
+  ]
+}
