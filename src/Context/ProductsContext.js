@@ -3,12 +3,12 @@ import axios from "axios";
 
 export const ProductsContext = createContext();
 
-const ProductsContextProvider = (props) => {
+const ProductsContextProvider = props => {
   const [products, setProduct] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
-      const result = await axios("http://localhost:3000/data");
+      const result = await axios("data.json");
       setProduct(result.data);
     };
     fetchData();

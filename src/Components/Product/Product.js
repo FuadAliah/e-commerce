@@ -19,10 +19,7 @@ function Product({ product }) {
             <Link to="/" type="button" className="preview btn btn-outline-info rounded-0">
               Preview
             </Link>
-            <button
-              type="button"
-              className="btn btn-outline-danger rounded-0"
-              onClick={() => dispatch({ type: "ADD_TO_CART", id: product.id, product })}>
+            <button type="button" className="btn btn-outline-danger rounded-0" onClick={() => dispatch({ type: "ADD_TO_CART", id: product.id, product })}>
               <FiShoppingBag className="d-flex align-items-center" />
             </button>
           </div>
